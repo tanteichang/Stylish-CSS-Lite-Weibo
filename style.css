@@ -1,0 +1,241 @@
+/*  
+* BUG:
+* 1: Gotop 按钮显示错误
+*/
+
+
+/*
+  todo:
+  统一配色 teal
+*/
+
+
+/* 全局 */
+
+body {
+  background-color: #F5F8FA;
+}
+
+.WB_frame {
+  background-color: #F5F8FA;
+  margin-left: 24%;
+}
+
+
+/* END全局 */
+
+
+/* ===============================导航 =============================== */
+
+
+/* 去除 游戏 视频 导航 */
+
+ul.gn_nav_list li:nth-of-type(2),
+ul.gn_nav_list li:nth-of-type(4) {
+  display: none;
+}
+
+
+/* 圆角搜索框 */
+
+.gn_search_v2 {
+  border-radius: 20px;
+}
+
+
+/* 去除提醒 */
+
+
+/* .gn_set_list .W_new_count {
+  display:none;
+} */
+
+
+/*  ===============================END导航 =============================== */
+
+
+/*======================右边栏====================================== */
+
+
+/* 去除大部分右边栏 */
+
+#v6_pl_rightmod_rank,
+#v6_pl_rightmod_attfeed,
+#v6_trustPagelet_recom_member,
+#v6_pl_rightmod_groups {
+  display: none;
+}
+
+
+/* 移动至左边 */
+
+.WB_main_r {
+  float: left;
+  margin-left: -250px;
+}
+
+.WB_cardwrap {
+  border-radius: 6px 6px 0px 0px;
+}
+
+
+/* 头像美化 */
+
+#skin_cover_s {
+  background: url(http://ww4.sinaimg.cn/mw690/7ebd362ejw1faygathr7dj207k02kt8l.jpg) no-repeat -14px -2px !important;
+}
+
+#skin_cover_s a.icon_bed {
+  display: none;
+}
+
+.headpic {
+  bottom: -8px!important;
+}
+
+
+/* 微博等级 微博会员 icon */
+
+.nameBox a:nth-of-type(2),
+.nameBox a:nth-of-type(3) {
+  display: none;
+}
+
+
+/* END 头像美化 */
+
+
+/* =====================END右边栏======================================= */
+
+
+/* =================================主体==================================== */
+
+
+/* 去除左侧热门微博 热门视频导航 */
+
+div.lev_Box:nth-of-type(5),
+.lev_line_v2 {
+  display: none;
+}
+
+
+/* 发微博 */
+
+.send_weibo {
+  background: #FEF1EB;
+}
+
+.send_weibo .title_area {
+  display: none;
+}
+
+.send_weibo div.input {
+  border-radius: 5px;
+}
+
+
+/* END发微博 */
+
+
+/* 微博会员图标 */
+
+.icon_member6,
+.icon_member5,
+.icon_member4,
+.icon_member3,
+.icon_member2,
+.icon_member1 {
+  display: none;
+}
+
+
+/* END 微博会员图标 */
+
+
+/* 会员背景 */
+
+
+/* .WB_starcover {
+  right: 21px;
+ width: 109px;
+  background: white;
+} */
+
+.WB_feed_detail {
+  background-image: none !important;
+}
+
+div.WB_starcover {
+  display: none;
+}
+
+
+/* ==================================END 主体=================================== */
+
+
+/* ================================================= Footer================================================= */
+
+
+/* 去除 footer */
+
+.WB_footer S_bg2 {
+  display: none;
+}
+
+
+/* gotop */
+
+.W_gotop {
+  background-color: #FA743E;
+}
+
+
+/* ================================================= END footer================================================= */
+
+
+/* 微博分组Nav */
+
+.WB_left_nav,
+WB_left_nav_Atest {
+  background-color: #FB8F64;
+  margin-right: 5px;
+  position: absolute;
+  top: 0;
+  right: -520%;
+  border-radius: 3px;
+}
+
+
+/* END 分组Nav */
+
+@media screen and (max-width: 1006px) {
+  .WB_left_nav_Atest {
+    display: none;
+  }
+  .WB_frame {
+    background: #F5F8FA;
+    margin-left: -15%;
+  }
+  .W_gotop {}
+}
+
+
+/*
+============================================Color======================
+*/
+
+
+/*<color name="teal50">#e0f2f1</color>  
+        <color name="teal100">#b2dfdb</color>  
+        <color name="teal200">#80cbc4</color>  
+        <color name="teal300">#4db6ac</color>  
+        <color name="teal400">#26a69a</color>  
+        <color name="teal500">#009688</color>  
+        <color name="teal600">#00897b</color>  
+        <color name="teal700">#00796b</color>  
+        <color name="teal800">#00695c</color>  
+        <color name="teal900">#004d40</color>  
+        <color name="teala100">#a7ffeb</color>  
+        <color name="teala200">#64ffda</color>  
+        <color name="teala400">#1de9b6</color>  
+        <color name="teala700">#00bfa5</color> */
